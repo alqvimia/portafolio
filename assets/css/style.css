@@ -104,6 +104,23 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+}
+
+footer h4 {
+    font-family: 'cinzel','serif';
+    font-size: 40px;
+}
+
+i {
+    color: white;
+    margin: 20px;
+}
+
+footer h6 {
+    font-family: 'cinzel','serif';
 
 }
 
