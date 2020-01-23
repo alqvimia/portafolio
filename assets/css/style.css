@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.navbar h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+
+}
+
 .hero__section {
     
     background-image: url(../img/fotoyo.jpg);
@@ -12,6 +18,12 @@
     background-size:cover ;
     width: 100vw;
     height: 100vh;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+
 }
 
 header h1 {
@@ -33,11 +45,27 @@ header h2 {
     width: 100vw;
 }
 
+.acerca h3 {
+    margin: 40px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.acerca p {
+    margin: 10px 30px 40px 50px;
+}
+
 .tarjetero {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.card {
+    background-color: black;
+    color: #ffffff;
+}
+
 
 @media (min-width: 200px) {
 
