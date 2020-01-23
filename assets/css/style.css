@@ -33,6 +33,12 @@ header h2 {
     width: 100vw;
 }
 
+.tarjetero {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media (min-width: 200px) {
 
     
