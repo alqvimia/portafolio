@@ -28,6 +28,9 @@ header h2 {
 .acerca {
     text-align: center;
     display: none;
+    color: #ffffff;
+    background-color: black;
+    width: 100vw;
 }
 
 @media (min-width: 200px) {
