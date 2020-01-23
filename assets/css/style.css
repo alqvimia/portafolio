@@ -23,7 +23,7 @@
 h4 {
     color: #ffffff;
     font-family: 'Cinzel', serif;
-
+    font-size: 30px;
 }
 
 header h1 {
@@ -59,6 +59,12 @@ header h2 {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
+    padding-top: 30px;
+}
+
+.titulo {
+    text-align: center;
 }
 
 .card {
@@ -66,6 +72,40 @@ header h2 {
     color: #ffffff;
 }
 
+.card h5 {
+    font-family: 'cinzel', 'serif';
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.experiencia {
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.jumbotron {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'cinzel','serif';
+}
+
+.jumbotron h4 {
+    font-size: 30px;
+}
+
+footer {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
 
 @media (min-width: 200px) {
 
