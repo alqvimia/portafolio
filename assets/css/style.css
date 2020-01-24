@@ -155,7 +155,17 @@ footer h6 {
     font-size: 25px;
 }
 
+.videos {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100vw;
+    font-family: 'cinzel','serif';
+    font-size: 40px;
+    text-align: center;
 
+}
 
 @media (min-width: 200px) {
 
