@@ -1,0 +1,183 @@
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    text-align: left;
+    color: #ffffff !important;
+}
+
+.navbar {
+    background-color: #373A3C !important;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.linea-principal {
+    width: 80%;
+    border: solid #373A3C 1px;
+    text-align: center;
+}
+
+.linea {
+    width: 80%;
+    border: solid #373A3C 1px;
+    text-align: center;
+}
+
+ol li {
+    list-style-position:inside ;
+}
+
+
+
+.receta {
+    font-size: 20px;
+}
+
+.lineados {
+    text-align: center !important;
+    width: 80%;
+    border: solid #373A3C 1px;
+    display: none;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20;
+}
+
+.barra__debajo {
+    border: solid 1px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+.lead {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #DC3545;
+    color: #ffffff;
+}
+
+footer {
+margin-top: 0;
+font-family: 'Lobster', cursive;
+color: #ffffff;
+background-color: #373A3C;
+width: 100%;
+padding: 30px;
+text-align: center;
+}    
+
+
+@media (min-width: 200px) {
+
+    .contenedor-primario {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .linea {
+        text-align: center;
+    }
+
+    .carrusel {
+        display: none;
+}
+
+
+
+@media (min-width: 768px) { 
+
+    .contenedor-primario {
+        text-align: left;
+    }
+    .linea {
+        margin-left: 0;
+    
+    }
+    .linea-principal {
+        display: none;
+    }
+
+
+    .carousel-indicators {
+        bottom: -55px;
+    }
+    .carousel-indicators .active {
+        background-color: black;
+    }
+
+    .carousel-indicators li {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: rgba(0, 0,0, 5);
+    }
+    
+    .carrusel {
+        display: inline-block;
+    }
+
+    .lineados {
+        display: inline-block;
+        text-align: center !important;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+      
+        
+}
+
+
+@media (min-width: 992px) {
+
+    .contenedor-primario {
+        text-align: left;
+    }
+    .linea {
+        margin-left: 0;
+    
+    }
+}
+
+
+@media (min-width: 1200px) {
+   
+    .contenedor-primario {
+        text-align: left;
+    }
+    .linea {
+        margin-left: 0;
+    }  
+   
+}

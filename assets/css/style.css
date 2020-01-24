@@ -1,7 +1,7 @@
 .navbar {
     background-color: #000000 !important;
     position: fixed top;
-    width: 100%;
+    width: 100vw;
 }
 
 .navbar h1 {
@@ -61,6 +61,7 @@ header h2 {
     background-size: cover;
     background-position: top;
     padding-top: 30px;
+    width: 100vw;
 }
 
 .titulo {
@@ -85,6 +86,7 @@ header h2 {
 .experiencia {
     background-color: black;
     color: #ffffff;
+    width: 100vw;
     
 }
 
@@ -93,6 +95,7 @@ header h2 {
     text-align: center;
     color: #ffffff;
     font-family: 'cinzel','serif';
+    width: 100vw;
 }
 
 .jumbotron h4 {
@@ -107,6 +110,7 @@ footer {
     text-align: center;
     color: #ffffff;
     padding: 50px;
+    width: 100vw;
 }
 
 footer h4 {
@@ -121,6 +125,26 @@ i {
 
 footer h6 {
     font-family: 'cinzel','serif';
+
+}
+
+.typeform-widget {
+    width: 100vw;
+}
+
+.fondo-carrusel {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.carousel-caption {
+    background-color:black;
+    bottom: 0;
+    padding: 0;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: yellow;
+
 
 }
 

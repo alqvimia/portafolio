@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    font-weight: 400;
+}
+
+nav a {
+    color: #ffffff !important;
+}
+
+body h1 {
+    color: #707070 !important;
+    text-align: center;
+    font-weight: 700;
+}
+
+.fondo-navbar {
+    background-color: #e83e8c !important;
+}
+
+.barra-azul {
+    width: 100%;
+    height: 200px;
+    margin-top: 4rem;
+    background-color: #17a2b8;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h3, .tarjetas {
+    display: inline-block;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size:17;
+}
+
+section h3 {
+    color: #ffffff;
+    margin: 70px 80px auto 350px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.tarjetas i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.barra-azul {
+    display: none;
+}
+
+@media (min-width: 576px) {
+
+    
+}
+
+
+@media (min-width: 768px) { 
+   
+}
+
+
+@media (min-width: 992px) {
+    .barra-azul {
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+   
+}
+
+footer {
+    text-align: center;
+}
